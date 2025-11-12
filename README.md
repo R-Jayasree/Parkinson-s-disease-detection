@@ -102,12 +102,13 @@ src/locales/
 
 Setup Instructions
 1. Clone the repository
-
+```
 git clone https://github.com/R-Jayasree/Parkinson-s-disease-detection.git
 cd Parkinson-s-disease-detection
+```
 2. Backend Setup
 
-cd backend
+```cd backend
 
 # Create a virtual environment (optional but recommended)
 python -m venv myenv
@@ -123,6 +124,7 @@ pip install -r requirements.txt
 
 # Run the Flask app
 python app.py
+```
 The backend will start at http://127.0.0.1:5000/.
 
 Test the /predict endpoint using Postman or your frontend.

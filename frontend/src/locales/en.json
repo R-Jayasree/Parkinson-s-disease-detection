@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "title": "Parkinson Disease Predictor",
+    "predictions": "Predictions"
+  },
+  "hero": {
+    "subtitle": "Analyze your voice instantly — upload an audio file or record live to get smart predictions powered by AI."
+  },
+  "upload": {
+    "title": "Upload or Record Your Voice",
+    "uploadBtn": "📁 Upload Audio",
+    "startRecording": "🎙️ Start Recording",
+    "stopRecording": "⏹️ Stop Recording",
+    "preview": "Preview",
+    "predictBtn": "Get Prediction"
+  },
+  "errors": {
+    "noFile": "Please upload or record an audio file.",
+    "predictionFailed": "Failed to get prediction. Please check your backend server.",
+    "microphoneAccess": "Microphone access denied or not available."
+  },
+  "results": {
+    "title": "Prediction Result",
+    "status": "Status",
+    "riskScore": "Risk Score",
+    "suggestions": "Suggestions",
+    "detected": "Parkinson's Detected",
+    "healthy": "Healthy",
+    "suggestionsDetected": [
+        "Consult a neurologist for detailed examination.",
+      "Maintain a healthy lifestyle and avoid stress.",
+      "Consider speech and movement therapy early."
+      
+    ],
+    "suggestionsHealthy": [
+           "Great! You seem healthy.",
+      "Keep regular checkups and stay active.",
+      "Maintain hydration and balanced nutrition."
+    ]
+  }
+}
